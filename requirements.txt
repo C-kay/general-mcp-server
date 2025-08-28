@@ -1,0 +1,4 @@
+pydantic_ai
+pytest
+asyncio
+mcp[cli]
