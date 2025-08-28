@@ -21,4 +21,4 @@ def add_numbers(a: int, b: int) -> int:
 
 if __name__ == "__main__":
     #mcp.run()
-    mcp.run(transport="sse")
+    mcp.run(transport="streamable-http")
