@@ -2,3 +2,7 @@ pydantic_ai
 pytest
 asyncio
 mcp[cli]
+uvicorn>=0.22.0
+starlette
+python-dotenv>=1.0.0
+requests
