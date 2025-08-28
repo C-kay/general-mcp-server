@@ -2,7 +2,7 @@ from mcp.server.fastmcp import FastMCP
 import requests
 
 
-mcp = FastMCP("Weather Server")
+mcp = FastMCP("Weather Server", host="0.0.0.0", port=8080)
 
 
 @mcp.tool()
